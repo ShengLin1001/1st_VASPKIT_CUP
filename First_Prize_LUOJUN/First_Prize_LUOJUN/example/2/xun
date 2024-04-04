@@ -1,0 +1,4 @@
+#! /bin/sh
+
+(echo 1; echo 0.05; echo 120) | sh he.sh 02_Graphene_POSCAR  02_MoS2_POSCAR | grep 123
+(echo 1; echo 1; echo 3; echo 15; echo 3; echo n) | sh redine_POSCAR.sh | grep 123
